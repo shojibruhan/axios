@@ -27,4 +27,10 @@ const posts = [
   },
 ];
 
-export default posts;
+// export default posts;
+const getAllPosts = () => posts;
+
+const getSinglePost = (id) => {
+  return posts[id];
+};
+export { getAllPosts, getSinglePost };
