@@ -20,7 +20,7 @@ api.interceptors.request.use(
 // interceptors: - response
 api.interceptors.response.use(
   (response) => {
-    console.log(response);
+    console.log(response.data);
     return response;
   },
   (err) => {
